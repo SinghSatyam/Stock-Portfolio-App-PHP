@@ -1,0 +1,194 @@
+body{
+	color:#FFFFFF;
+	font-size:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;padding:0;
+	text-align:left;
+	background:#996633;
+}
+h1{ 
+	font-family:"Courier New", Courier, monospace;
+
+}
+
+table
+{
+background-color:#FFFFFF;
+color:#000000;
+overflow:auto;
+}
+
+
+#tables
+{
+	border:none;
+	float:none;
+	width:auto; height:400px;
+	margin:0 auto;
+	background:#996633;
+
+}
+
+#nr
+{
+	border:none;
+	float:none;
+	width:auto; height:400px;
+	margin:0 auto;
+	text-align:center;
+	background:#996633;
+
+}
+
+#wrap{
+	border:0px solid #808080;
+	margin:0 auto;
+	width:1000px;
+}
+#logo{
+	border:0px solid black;
+	float:left;
+	margin:10px 0;
+	width:200px;height:100px;
+}
+#login{
+	border:0px solid black;
+	float:right;
+	margin:10px 0;
+	width:190px;height:100px;
+}
+
+#webname
+{ 
+	border:0px solid black;
+	color:#FFFF66;
+	float:left;
+	margin:10px 0;
+	width:600px;height:100px;
+}
+#menu{
+	border:1px solid black;
+	float:none;
+	width:1000px;height:60px;
+}
+#menu ul{list-style-type:none;width:900px;height:60px;margin:0}
+#menu li{float:left;margin-left:30px}
+#menu ul a {
+display: block;
+line-height: 50px;
+text-decoration: none;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 21px;
+color: #9A4E4E;
+}
+
+#sensex{
+	border:0px solid #000;
+	float:left;
+	width:340px;height:400px;
+	margin:-7px 0 0 0;
+}
+
+#WorldMaps
+{
+	border:1px solid black;
+	float:right;
+	width:650px;height:400px;
+	margin:10px 0 0 0;
+	background:#ffffff;
+}
+#quote{
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	float:left;
+	width:900px;
+	margin:60px;
+	text-align:center;
+	padding:20px;
+}
+
+#quote1{
+	float:left;
+	width:900px;
+	margin:30px;
+	text-align:center;
+	padding:20px;
+}
+#article{
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	float:left;
+	width:500px;height:400px;
+	margin:10px auto;
+	overflow:scroll;
+	overflow-x:hidden;overflow-y:auto
+}
+
+#articles
+{
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	float:none;
+	width:700px;height:400px;
+	margin:0 auto;
+	overflow:scroll;
+	overflow-x:hidden;overflow-y:auto
+}
+#article h2{text-align:center}
+#article p{text-align:justify;margin:10px;}
+#news
+	{border:1px solid black;
+	text-decoration:blink;
+	float:right;
+	width:400px;height:400px;
+	margin:10px auto;}
+
+
+input.text
+{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  padding: 3px;
+  color: #777;
+  background: url('../images/bg-input-focus.png') repeat-x 0px 0px;
+  background: url('../images/bg-input.png') repeat-x 0px 0px;
+  border-top: solid 1px #aaa;
+  border-left: solid 1px #aaa;
+  border-bottom: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  outline: 0;
+}
+
+/* input types Quotes */
+
+/* table */
+#mytable {
+	color:#000000;
+	width: 340px;
+	padding: 0;
+	margin: 0;
+	height:400px;
+}
+#mytable th {
+	font: bold 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 5px 5px 5px 10px;
+	background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+}
+
+
+#mytable td {
+	font:12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #fff;
+	padding: 4px 4px 4px 9px;
+}

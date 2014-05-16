@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Adventure-Pulse:Customize Your Trip</title>
+	<link rel="shortcut icon" href="apicon.ico" />
+	<link type="text/css" rel="stylesheet" href="css/home.css" />
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17048978-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Drop down-->
+<link href="scripts/dropdown.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="scripts/dropdown/default.ultimate.css" media="screen" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 7]>
+<script type="text/javascript" src="js/jquery/jquery.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.dropdown.js"></script>
+<![endif]-->
+
+<!-- / END -->
+<!-- sliding menu -->
+
+
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+		<script type="text/javascript" src="css/sliding_effect.js"></script>
+		<script type="text/javascript" src="js/dhtmlgoodies.js"></script>
+		<link href="css/dhtmlgoodies.css" media="screen" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+function validate_required(field,alerttxt)
+{
+with (field)
+  {
+  if (value==null||value=="")
+    {
+    alert(alerttxt);return false;
+    }
+  else
+    {
+    return true;
+    }
+  }
+}
+
+function validate_form(thisform)
+{
+with (thisform)
+  {
+  if (validate_required(email,"Email must be filled out!")==false)
+  {email.focus();return false;}if (validate_required(name,"Name must be filled out!")==false)
+  {name.focus();return false;}if (validate_required(message,"Please type your message!")==false)
+  {message.focus();return false;}
+  }
+}
+</script>
+
+</head>
+<body>
+<!-- header-->
+<div id="wrap">
+<div id="main_header">
+	
+	<div id="header">
+		
+		
+	</div>
+	
+</div>
+
+<!-- Menu-->
+<div id="header_bottom">
+	<div style="width:1300px;height:35px;margin:0 auto;border:0">
+				<ul id="nav" class="dropdown dropdown-horizontal">
+<!--home-->			<li id="n-home"><a href="index.html">Home</a></li>
+<!--About-->		<li id="n-shows"><a class="dir">About us</a>
+						<ul>
+							<li class="first"><a href="who.html" >Who we are</a></li>
+							<li><a href="mentors.html">Mentors</a></li>
+							<li><a href="milestones.html">Milestones</a></li>
+							<li><a href="safety.html">Safety Code of Conduct</a></li>
+						</ul>
+					</li>
+<!--testimonials-->	<li id="n-shows"><a class="dir">Testimonials</a>
+							<ul>
+							<li class="fitst"><a href="people_say.html">People Say</a></li>
+							
+							<li class="fitst"><a href="milestones.html">Milestones</a></li>
+							</ul>
+					</li>		
+<!--Events-->		<li id="n-music"><a class="dir">Events</a>
+					<ul>
+						<li class="first"><a class="dir">Past Events</a>
+							<ul>
+								<li><a href="past_fort.html">Fort Treks</a></li>
+								<li><a href="past_everest.html">Himalayan Treks</a></li>
+								<li><a href="outbound.html">Outbound Development Programs</a></li>
+							</ul>
+						</li>
+						<li class="first"><a href="future.html">Future Events</a></li>
+					</ul>
+					</li>
+<!-- category-->	<li id="n-music"><a class="dir click">Categories</a>
+						<ul>
+							<li class="first"><a href="terrestrials.html" >Terrestrials Adventures</a></li>
+							<li class="first"><a href="aquatic.html">Aquatic Adventures</a></li>
+							<li class="first"><a href="outdoor.html">Outdoor Development Programs</a></li>
+							<li class="first"><a href="customize.html" class="dir click">Customize your Trip</a></li>
+						</ul>
+					</li>
+
+<!--Contact-->		<li id="n-shows"><a href="contact.html">Contact</a></li>
+				</ul>
+
+
+	</div>	
+	
+</div>
+<div style="width:1300px;height:1010px;margin:5px auto;border:0px solid black;padding-bottom:40px;">
+	<div style="width:1000px;height:1010px;margin:0;float:left;padding:5px;border:0;-moz-box-shadow:1px 1px 5px #000000;
+	-webkit-box-shadow:1px 1px 5px #000000;box-shadow:1px 1px 1px 5px #000000;background:#fff">
+			
+			<p><h1 class="heading3">If you do not want to join any of our group treks and want an exclusive Adventure to be organised for you or your friends,
+			Please feel free to write to us -</h1></p>
+		<div style="width:70%;hieght:100%;border:1px solid black;background:#8080C0;margin:20px auto;-webkit-border-radius: 10px;">
+		
+			<table width="70%" border="0" align="center" cellpadding="3" cellspacing="1">
+				<tr>
+				<td><strong><font color="#ffffff">Customize Your Trip</font> </strong></td>
+				</tr>
+				</table>
+
+				<table width="70%" border="0" align="center" cellpadding="0" cellspacing="1">
+				<tr>
+				<td>
+				<form method="post" action="cus_mailer.php" onsubmit="return validate_form(this)">
+					<table width="70%" border="0" cellspacing="1" cellpadding="3">
+					<tr>
+					<td><font color="#ffffff">Name</font></td>
+					<td><font color="#ffffff">:</font></td>
+					<td><input name="name" type="text" size="50" maxlength="30"></td>
+					</tr>
+					<tr>
+					<td ><font color="#ffffff"><font color="#ffffff">Mobile no</font></font></td>
+					<td ><font color="#ffffff">:</font></td>
+					<td ><input name="mobile" type="text" size="50" maxlength="10"></td>
+					</tr>
+					<tr>
+					<tr>
+					<td><font color="#ffffff">Email</font></td>
+					<td><font color="#ffffff">:</font></td>
+					<td><input name="email" type="text" size="50" maxlength="30"></td>
+					</tr>
+					<tr>
+					<td><font color="#ffffff">Approx. Days</font></td>
+					<td><font color="#ffffff">:</font></td>
+					<td><select name="days">
+							  <option>1</option>
+							  <option>2</option>
+							  <option>3</option>
+							  <option>4</option>
+							  <option>5</option>
+							  <option>6</option>
+							  <option>7</option>
+							  <option>8</option>
+							  <option>9</option>
+							  <option>10</option>
+							  <option>11</option>
+							  <option>12</option>
+							  <option>13</option>
+							  <option>14</option>
+							  <option>15</option>
+							  <option>16</option>
+							  <option>17</option>
+							  <option>18</option>
+							  <option>19</option>
+							  <option>20</option>
+						</select>
+					</td>
+					</tr>
+					<td><font color="#ffffff">Approx. Budget</font></td>
+					<td><font color="#ffffff">:</font></td>
+					<td><select name="budget">
+							  <option>below 2000</option>
+							  <option>5000 - 10000</option>
+							  <option>10000 - 15000</option>
+							  <option>15000 - 25000</option>
+							  <option>25000 onwards</option>
+						</select>
+					</td>
+					</tr>
+					<tr>
+					<td><font color="#ffffff">Adventure Detail</font></td>
+					<td><font color="#ffffff">:</font></td>
+					<td><textarea name="message" cols="39" rows="4"></textarea></td>
+					</tr>
+					</font>
+					
+					<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td><center><input type="submit" name="submit" value="submit"></center></td>
+					</tr>
+					</table>
+				</form>
+				</td>
+				</tr>
+				</table>
+			
+		
+			</div>
+	</div>
+	
+	<div id="abouttag" style="margin-top:0px;">
+		<div style="width:300px;height:30px;border:0px solid white;margin:10px auto;"><font class="tag"><center>Catagories</center></font></div>
+		<div style="width:200px;height:170px;border:0px solid white;margin:0 auto">
+			<ul id="sliding-navigation">
+                
+                <li class="sliding-element" ><a href="terrestrials.html">Terrestrials Adventures</a></li>
+                <li class="sliding-element"><a href="aquatic.html">Aquatic Adventures</a></li>
+                <li class="sliding-element"><a href="outdoor.html">Outdoor Development Programs</a></li>
+                
+            </ul>
+		</div>
+	</div>
+	
+	
+	
+	<div id="upcoming">
+			<div style="width:300px;height:30px;border:0px solid white;margin:10px auto;"><font class="tag"><center>Upcoming Events</center></font></div>
+					<div style="width:250px;height:230px;border:0px solid white;margin:5px auto">
+						<font style="color:#fff;size:0.9em"><div class="dhtmlgoodies_question">Everest Base Camp 2011</div>
+								<div class="dhtmlgoodies_answer">
+									<div>
+										<p>
+										<a href="future.html">The Everest Base camp trek is the highest trekking route available to outdoor enthusiasts and 
+										nature lovers.
+										<br />
+										Read More...</a>
+										</p>
+										</a>
+									</div>
+								</div>
+								<div class="dhtmlgoodies_question">Rajgadh Oct 2010</div>
+								<div class="dhtmlgoodies_answer">
+									<div>
+										<p>
+										<a href="future_rajgadh.html">
+										Fort Rajgadh stands on a height of 4514 feet above sea level.
+										This one day trek gives you an opportunity to enjoy the beauty of the Shayadri's 
+										in its full splendour.
+										<br />
+										Read More...
+										</a>
+										</p>
+									</div>
+								</div>
+								
+						</font>
+					</div>
+	</div>
+	
+	<div id="photo">
+			<div style="width:300px;height:30px;border:0px solid white;margin:10px auto;"><font class="tag"><center>Videos</center></font></div>
+			<a href="video.html"><img src="images/video_image.jpg" style="border:0;float:left;margin:10px;"/>
+						Adventure-Pulse At Summit Of Mera Peak 22,000ft
+					</a>
+	</div>
+
+
+</div>
+</div>
+<div id="footer" style="background:#1f242a;color:#fff;border:0;min-width:1300px;">
+	<br>
+
+	<div style="width:1300px;height:40px;border:0px solid red;margin:0 auto 0px auto;">
+			<div style="width:500px;height:100%;border:0px solid red;margin:0 auto;float:left">
+			<font color="#FF8040">&copy;Adventure-Pulse</font>
+			</div>
+			<div style="width:200px;height:100%;border:0px solid red;margin:0 auto;float:left;">
+				<table>
+						<tr cellspacing="3">
+							<td><a href="http://www.facebook.com/AdventurePulse" target="_blank"><div id="facebook"></div></a></td>
+							<td> </td>
+							<td><a href="http://twitter.com/AdventurePulse" target="_blank"><div id="twitter"></div></a></td>
+							<td> </td>
+							<td><a href="http://www.linkedin.com/companies/adventure-pulse?trk=fc_badge" target="_blank"><div id="linkedin"></div></a></td>
+						</tr>
+					</table>
+				</div>
+		<div style="width:500px;height:100%;border:0px solid red;margin:0 auto;float:right;text-align:right">Created By
+			<a href="http://www.imrahul.com/" target="_blank"><i><font color="#FF0080">Rahul Kumar</font></i></a> &amp; backgrounds by 
+			<a href="http://www.facebook.com/profile.php?id=1222667460" target="_blank"><i><font color="#FF0080">Pranay Panday</font></i></a>
+		</div>
+		
+	</div>
+</div>
+</body>
+</html>
